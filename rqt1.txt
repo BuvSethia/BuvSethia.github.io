@@ -1,0 +1,8 @@
+src/components
+App/App.jsx, c
+Header/Header.jsx, c
+src/components/Projects
+ProjectsList.jsx, p
+Project.jsx, p
+./src/components/Contact/Contact.jsx, p
+./src/components/Portfolio/Portfolio.jsx, c
