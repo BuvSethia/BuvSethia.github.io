@@ -1,0 +1,21 @@
+.smallpadding {
+	padding: 0px 0px 0px 0px;
+}
+
+.linkpadding {
+	padding: 0px 5px 0px 5px;
+}
+
+.contactimage{
+	max-width: 45px;
+	max-height: 45px;
+}
+
+.roundimage {
+	border-radius: 50%;
+}
+
+.separator {
+	border: 1px solid gray;
+	width: 80%;
+}
