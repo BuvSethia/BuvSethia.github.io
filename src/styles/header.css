@@ -17,5 +17,6 @@
 
 .separator {
 	border: 1px solid gray;
-	width: 80%;
+	width: 90%;
+	margin-bottom: 30px;
 }

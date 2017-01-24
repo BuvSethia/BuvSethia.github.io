@@ -1,0 +1,22 @@
+/*body {
+	background-image: url('../assets/background.png')
+}*/
+
+.menu {
+	float: left;
+	padding: 20px 20px 0px 20px;
+}
+
+.verticalline {
+  border-left: solid thin gray;
+}
+
+.body {
+	position: relative;
+	float: left;
+	padding-left: 20px;
+}
+
+.container {
+	overflow-x: none;
+}
