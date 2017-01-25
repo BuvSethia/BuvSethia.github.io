@@ -4,7 +4,7 @@
 
 .menu {
 	float: left;
-	padding: 20px 20px 0px 20px;
+	padding: 20px 20px 20px 20px;
 }
 
 .verticalline {
@@ -15,8 +15,5 @@
 	position: relative;
 	float: left;
 	padding-left: 20px;
-}
-
-.container {
-	overflow-x: none;
+	font-size: 16px;
 }

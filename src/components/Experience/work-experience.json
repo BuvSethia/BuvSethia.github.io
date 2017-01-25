@@ -1,0 +1,20 @@
+{
+	"experience": [
+		{
+			"company": "American Express",
+			"location": "Phoenix, Arizona, USA",
+			"position": "Software Engineer",
+			"time": "August 2016 - Present",
+			"accomplishments": [
+			]
+		},
+		{
+			"company": "Arizona State University Yochan Lab",
+			"location": "Tempe, Arizona, USA",
+			"position": "Researcher",
+			"time": "May 2013 - December 2014",
+			"accomplishments": [
+			]
+		}
+	]
+}

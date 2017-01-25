@@ -6,7 +6,7 @@ const Menu = (props) => (
 	<div className="menu">
 		<IndexLink to="/" activeClassName="active">Bio</IndexLink>
 		<br/>
-		<Link to="/contact" activeClassName="active">Contact</Link>
+		<Link to="/experience" activeClassName="active">Experience</Link>
 	</div>
 );
 
