@@ -1,0 +1,18 @@
+.title {
+	display: inline;
+}
+
+.date {
+	padding-left: 40px;
+	font-style: italic;
+}
+
+.space-bottom {
+	padding-bottom: 30px;
+}
+
+.location {
+	margin-top: 4px;
+	margin-bottom: 5px;
+	font-weight: normal;
+}

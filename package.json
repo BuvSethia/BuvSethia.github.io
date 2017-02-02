@@ -3,9 +3,9 @@
   "description": "Personal website",
   "author": "Sumbhav Sethia",
   "scripts": {
-    "start": "npm-run-all --parallel webpackserver lint:watch",
+    "start": "npm-run-all --parallel lint:watch webpackserver",
     "webpackserver": "webpack-dev-server --config webpack.config.dev.js --content-base src/ --hot --inline --open",
-    "lint": "node_modules/.bin/esw webpack.config.* src tools",
+    "lint": "node_modules/.bin/esw webpack.config.* src/",
     "lint:watch": "npm run lint -- --watch"
   },
   "dependencies": {
@@ -36,6 +36,7 @@
     "extract-text-webpack-plugin": "^1.0.1",
     "file-loader": "^0.9.0",
     "jsdom": "^9.8.0",
+    "json-loader": "^0.5.4",
     "mocha": "^3.1.2",
     "nock": "^8.1.0",
     "npm-run-all": "^3.1.1",

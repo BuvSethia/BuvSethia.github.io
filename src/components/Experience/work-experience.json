@@ -6,6 +6,11 @@
 			"position": "Software Engineer",
 			"time": "August 2016 - Present",
 			"accomplishments": [
+				"Designed a responsive content management portal for department administrators using AngularJS",
+				"Implemented a feature for admins to track credit limit changes in seven global markets using Java",
+				"Managing multiple teams to onboard GitHub Enterprise for all of American Express",
+				"Resolved more than 20 Java, JavaScript, jQuery, and HTML defects in two applications",
+				"Work in an Agile/Scrum environment"
 			]
 		},
 		{
@@ -14,6 +19,10 @@
 			"position": "Researcher",
 			"time": "May 2013 - December 2014",
 			"accomplishments": [
+				"Interfaced an automated planner with a NAO robot using Java, enabling it to perform tasks autonomously",
+				"Designed NLP algorithms using Java to dynamically build robot actions using colloquial speech",
+				"Developed an Android application to improve the robot’s speech recognition and enable the generation of new robot actions",
+				"Research presented at the 2014 International Conference on Automated Planning and Scheduling"
 			]
 		}
 	]

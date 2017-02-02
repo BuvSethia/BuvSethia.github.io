@@ -7,8 +7,8 @@
 }
 
 .contactimage{
-	max-width: 45px;
-	max-height: 45px;
+	max-width: 40px;
+	max-height: 40px;
 }
 
 .roundimage {
@@ -16,7 +16,7 @@
 }
 
 .separator {
-	border: 1px solid gray;
+	border: solid thin gray;
 	width: 90%;
 	margin-top: 5px;
 	margin-bottom: 50px;

@@ -1,7 +1,7 @@
 import React, {PropTypes} from 'react';
 
 const Bio = (props) => (
-	<div className="body verticalline container">
+	<div className="body container">
 		<p>
 			{"Hello! I'm Sumbhav, a recent graduate from Arizona State University and Barrett, The Honors College (Class of 2016) with a B.S. in Computer Science. I'm currently a software engineer at American Express in Phoenix, Arizona."}
 		</p>
