@@ -5,7 +5,7 @@
   "scripts": {
     "start": "npm-run-all --parallel lint:watch webpackserver",
     "webpackserver": "webpack-dev-server --config webpack.config.dev.js --content-base src/ --hot --inline --open",
-    "lint": "node_modules/.bin/esw webpack.config.* src/",
+    "lint": "node_modules/.bin/esw webpack.config.* ./src/",
     "lint:watch": "npm run lint -- --watch"
   },
   "dependencies": {
