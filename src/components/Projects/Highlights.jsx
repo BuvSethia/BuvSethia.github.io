@@ -1,9 +1,9 @@
 import React, {PropTypes} from 'react';
 
-const Highlights = (props) => (
-	<div>
-
-	</div>
+const Highlights = ({highlights}) => (
+	<ul>
+		{highlights.map((highlight, index) => <li key={index}>{highlight}</li>)}
+	</ul>
 );
 
 Highlights.PropTypes = {

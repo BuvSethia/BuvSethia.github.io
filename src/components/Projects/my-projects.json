@@ -1,8 +1,8 @@
 {
 	"projects": [
 		{
-			"title": "React Quick Templates",
-			"technologies": "node.js, xo (linting), AVA (testing), Travis CI",
+			"title": "react-quick-templates",
+			"technologies": "node.js, xo, AVA, Travis CI",
 			"link": {
 				"url": "https://www.npmjs.com/package/react-quick-templates",
 				"text": "View on npm"
@@ -11,6 +11,11 @@
 			"time": "2016",
 			"description": "Save some typing by auto-generating simple, ready to go, linted and tested React component skeletons. All you have to do is specify the path to the component, and all sub-directories and the component skeleton will be automatically generated for you!",
 			"highlights": [
+				"I got good at JavaScript",
+				"I'm a bawz I got good at JavaScript I got good at JavaScript I got good at JavaScript I got good at JavaScript I got good at JavaScript",
+				"Meh I got good at JavaScript I got good at JavaScript I got good at JavaScript I got good at JavaScript I got good at JavaScript",
+				"Four I got good at JavaScript I got good at JavaScript I got good at JavaScript",
+				"5 I got good at JavaScript"
 			]
 		}
 	]

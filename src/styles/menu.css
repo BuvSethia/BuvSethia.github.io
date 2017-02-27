@@ -1,9 +1,10 @@
-a {
+.menu a {
 		text-decoration: none !important;
-		color: black !important;
+		color: black;
 }
 
-a.active {
+.menu a.active {
 	font-size: 20px;
 	font-weight: bold;
+	color: black;
 }
