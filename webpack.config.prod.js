@@ -15,7 +15,7 @@ module.exports = {
   target: 'web',
   output: {
     path: __dirname + '/dist',
-    publicPath: '/js/',
+    publicPath: '/',
     filename: 'bundle.js'
   },
   plugins: [
