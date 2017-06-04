@@ -6,7 +6,12 @@
     "start": "npm-run-all --parallel lint:watch webpackserver",
     "webpackserver": "webpack-dev-server --config webpack.config.dev.js --content-base src/ --hot --inline --open",
     "lint": "node_modules/.bin/esw webpack.config.* ./src/",
-    "lint:watch": "npm run lint -- --watch"
+    "lint:watch": "npm run lint -- --watch",
+    "clean-dist": "npm run remove-dist && mkdir dist",
+    "remove-dist": "node_modules/.bin/rimraf ./dist",
+    "webpack:prod": "webpack --config webpack.config.prod.js",
+    "prebuild": "npm-run-all clean-dist lint",
+    "build": "npm-run-all webpack:prod"
   },
   "dependencies": {
     "babel-polyfill": "^6.16.0",
