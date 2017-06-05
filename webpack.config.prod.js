@@ -36,7 +36,7 @@ module.exports = {
       {test: /\.(woff|woff2)$/, loader: 'url?prefix=font/&limit=5000'},
       {test: /\.ttf(\?v=\d+\.\d+\.\d+)?$/, loader: 'url?limit=10000&mimetype=application/octet-stream'},
       {test: /\.svg(\?v=\d+\.\d+\.\d+)?$/, loader: 'url?limit=10000&mimetype=image/svg+xml'},
-			{test: /\.jpe?g$|\.ico$|\.gif$|\.png$|\.wav$|\.mp3$|\.html$/, loader: 'file-loader?name=[name].[ext]'},
+			{test: /\.jpe?g$|\.ico$|\.gif$|\.png$|\.wav$|\.mp3$|\.html$|\.pdf$/, loader: 'file-loader?name=[name].[ext]'},
 			{test: /\.json$/, loader: 'json-loader'}
     ]
   }
