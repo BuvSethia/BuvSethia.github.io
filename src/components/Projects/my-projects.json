@@ -15,6 +15,22 @@
 				"Wrote a testing suite with unit tests and end-to-end tests",
 				"Learned about a variety of automated testing and deployment tools and used them to create an automated end-to-end development pipeline"
 			]
+		},
+		{
+			"title": "Open Now",
+			"technologies": "Java, Android, REST API",
+			"link": {
+				"url": "https://devpost.com/software/open-now",
+				"text": "Devpost Page"
+			},
+			"source": "",
+			"time": "2016",
+			"description": "An Android app which curates and recommends restaurants determined by the user’s preferences. Whenever the user opens the app they will immediately see a list of restaurants, making it easy to find the best place to eat. Developed using Java for HackAZ 2016.",
+			"highlights": [
+				"Wrote a client to combine data from Google and Yelp APIs to create robust restraunt bios",
+				"Developed algorithms to rank restaurants based on a user profile consisting of catgories weighted by their importance to the user (distance, price, type of food, quality)",
+				"Worked on a team to design a highly intuitive user interface which minimized the number of taps to reach any given piece of information"
+			]
 		}
 	]
 }

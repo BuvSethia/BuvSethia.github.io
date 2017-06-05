@@ -9,8 +9,9 @@ const ProjectsItem = ({title, technologies, link, time, source, description, hig
 		<span className="date">{time}</span>
 		<span className="links">
 			<a href={link.url} target="_blank">{link.text}</a>
-			{"\t|\t"}
-			<a href={source} target="_blank">View Source</a>
+			{source &&
+				<span>{"\t|\t"} <a href={source} target="_blank">View Source</a></span>
+			}
 		</span>
 		<hr className="thin"/>
 		<p>{description}</p>
