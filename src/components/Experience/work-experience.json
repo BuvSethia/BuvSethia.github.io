@@ -1,10 +1,23 @@
 {
 	"experience": [
 		{
+			"company": "RevolutionParts",
+			"location": "Phoenix, Arizona, USA",
+			"position": "Software Engineer",
+			"time": "March 2017 - Present",
+			"accomplishments": [
+				"Designed internal tools to allow engineers to spin up individual, isolated testing environments using PHP",
+				"Developed a process to flip the shared development environment between any number of feature branches and automatically build the new environment",
+				"Redesigned the codebase to improve code readability and maintainability by using classes to reduce the usage of associative arrays and consolidate database accesses",
+				"Desgined tools to spin up temporary copies of production databases and automatically configure an individual development environment to use that temporary instance",
+				"Work in an extremely fast-paced, startup environment as a core member of a 10 engineer team"
+			]
+		},
+		{
 			"company": "American Express",
 			"location": "Phoenix, Arizona, USA",
 			"position": "Software Engineer",
-			"time": "August 2016 - Present",
+			"time": "August 2016 - March 2017",
 			"accomplishments": [
 				"Designed a responsive content management portal for department administrators using AngularJS",
 				"Implemented a feature for admins to track credit limit changes in seven global markets using Java",
