@@ -1,6 +1,8 @@
 .menu a {
 		text-decoration: none !important;
 		color: black;
+		display: block;
+		text-align: center;
 }
 
 .menu a.active {
