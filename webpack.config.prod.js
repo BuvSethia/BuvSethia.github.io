@@ -7,7 +7,6 @@ const GLOBALS = {
 
 module.exports = {
   debug: true,
-  devtool: 'source-map',
   noInfo: false,
   entry: {
     app: ["./src/index.js"]
